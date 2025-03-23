@@ -84,7 +84,7 @@ if [[ $1 = "-b" || $1 = "--build" ]]; then
 		rm *.zip 2>/dev/null
 		# Set kernel name and version
 		SUBREV="4.14.$(cat "Makefile" | grep "SUBLEVEL =" | sed 's/SUBLEVEL = *//g')"
-		REVISION=CyperEdge-Begonia
+		REVISION=CyberEdge-Begonia
   		ZIPNAME=""$REVISION"-"$SUBREV".zip"
 		echo -e ""
 		echo -e ""
